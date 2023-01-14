@@ -1,0 +1,15 @@
+.container_form {
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+@media (min-width: 675px) {
+  .container_form {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
